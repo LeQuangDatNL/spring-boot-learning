@@ -24,7 +24,6 @@ public class CauHoiService {
     public void save(CauHoi cauHoi) {
         repo.save(cauHoi);
     }
-
     public void delete(Integer id) {
         repo.deleteById(id);
     }

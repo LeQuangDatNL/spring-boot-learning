@@ -28,4 +28,5 @@ public interface BoCauHoiRepository extends JpaRepository<BoCauHoi, Integer> {
 			+ "VALUES (:user, :maBCH, :role)", nativeQuery = true)
 	void insertRelation(@Param("user") String user, @Param("maBCH") Integer maBCH, @Param("role") String role);
 	
+	
 }

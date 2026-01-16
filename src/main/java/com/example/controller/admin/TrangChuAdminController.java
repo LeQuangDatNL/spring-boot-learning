@@ -30,6 +30,6 @@ public class TrangChuAdminController {
         model.addAttribute("soSinhVien", taiKhoanService.thongKeHocVien());
         model.addAttribute("soGiangVien", taiKhoanService.thongKeGiangVien());
 
-        return "admin/TrangChu";
+        return "dmin/TrangChu";
     }
 }

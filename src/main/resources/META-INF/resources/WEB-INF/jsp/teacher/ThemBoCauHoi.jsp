@@ -72,7 +72,6 @@
 </div>
 
 <script>
-    // Script đơn giản để xem trước ảnh (tùy chọn)
     document.querySelector('input[name="fileAnh"]').onchange = evt => {
         const [file] = evt.target.files
         if (file) {  

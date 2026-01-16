@@ -18,4 +18,5 @@ public interface LoaiRepository extends JpaRepository<Loai, Integer> {
             WHERE bl.maBoCauHoi = :maBch
         """)
     List<Loai> findLoaiByMaBoCauHoi(@Param("maBch") Integer maBch);
+	
 }
