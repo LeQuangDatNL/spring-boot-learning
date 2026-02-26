@@ -50,31 +50,37 @@ Project phục vụ cho việc học trên lớp và làm bài tập / bài cu�
 ## 📂 Cấu trúc Project
 
 ```text
-spring-boot-learning
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── com.example.springboot
-│   │   │       ├── controller
-│   │   │       ├── service
-│   │   │       │   └── impl
-│   │   │       ├── repository
-│   │   │       ├── entity
-│   │   │       ├── dto
-│   │   │       ├── security
-│   │   │       ├── config
-│   │   │       └── SpringBootApplication.java
-│   │   └── resources
-│   │       ├── static
-│   │       ├── templates
-│   │       ├── application.properties
-│   │       └── application.yml
-│   └── test
-│       └── java
+project-root/
 │
-├── target
-├── pom.xml
+├── .mvn/
+│
+├── src/
+│   ├── main/
+│   │   ├── java/com/example/
+│   │   │   ├── config/
+│   │   │   ├── controller/
+│   │   │   ├── entity/
+│   │   │   ├── repository/
+│   │   │   ├── service/
+│   │   │   ├── BaiCuoiKyApplication.java
+│   │   │   └── ServletInitializer.java
+│   │   │
+│   │   └── resources/
+│   │       ├── META-INF/resources/WEB-INF/
+│   │       ├── components/
+│   │       ├── jsp/
+│   │       ├── static/
+│   │       └── application.properties
+│   │
+│   └── test/java/com/example/demo/
+│
+├── uploads/
+│   ├── mp3/
+│   └── test/
+│
+├── .gitattributes
+├── .gitignore
+├── README.md
 ├── mvnw
 ├── mvnw.cmd
-├── .gitignore
-└── README.md
+└── pom.xml
