@@ -23,30 +23,4 @@ public class DangNhapController {
         return "DangNhap"; 
     }
 
-    @PostMapping("/login")
-    public String login(
-            @RequestParam("tenDangNhap") String tenDangNhap,
-            @RequestParam("matKhau") String matKhau,
-            Model model,
-            HttpSession session) {
-
-        TaiKhoan tk = taiKhoanService.login(tenDangNhap, matKhau);
-        
-        if (tk == null) {
-            model.addAttribute("errorMessage", "Sai tên đăng nhập hoặc mật khẩu");
-            return "DangNhap"; 
-        }
-        String VaiTro = tk.getLoai();
-        session.setAttribute("user", tk);
-        session.setAttribute("userRole", tk.getLoai());
-        session.setAttribute("userName", tk.getTenDangNhap());
-        if ("admin".equalsIgnoreCase(VaiTro)) {
-            return "redirect:/Admin/TrangChu";
-        } else if ("teacher".equalsIgnoreCase(VaiTro)) {
-            return "redirect:/Teacher/TrangChu";
-        } else {
-            return "redirect:/TrangChu";
-        }
-
-    }
 }

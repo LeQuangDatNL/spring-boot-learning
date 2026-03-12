@@ -27,10 +27,10 @@ public class ChiTietCacCauHoi {
     private Integer thuTuCau;      
     private String noiDungCauHoi;
     private String kyHieu;         
-    private String noiDungDapAn;   // map từ da.NoiDung
+    private String noiDungDapAn;   
     private String giaiThich;
     private Boolean dapAnDung;
     private String noiDungDe;
-    private String nguonFile;// map từ da.IsDung
+    private String nguonFile;
 
 }

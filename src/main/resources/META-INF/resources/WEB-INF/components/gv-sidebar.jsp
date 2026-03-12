@@ -25,7 +25,7 @@
 	}
 </style>
 <div class="sidebar">
-    <h4 class="text-center py-3 border-bottom text-white">ADMIN</h4>
+    <h4 class="text-center py-3 border-bottom text-white">Giáo viên</h4>
     <ul class="nav flex-column px-2">
         <li class="nav-item">
             <a class="nav-link" href="/Teacher/TrangChu">

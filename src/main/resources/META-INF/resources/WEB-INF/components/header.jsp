@@ -15,7 +15,6 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                 	<li class="nav-item"><a class="nav-link fw-medium text-dark px-3" href="/BoCauHoi">Bộ câu hỏi</a></li>
-                    <li class="nav-item"><a class="nav-link fw-medium text-dark px-3" href="#">Xếp hạng</a></li>
                 </ul>
                 
 				<div class="d-flex align-items-center gap-2">

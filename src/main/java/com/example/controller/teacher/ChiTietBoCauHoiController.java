@@ -1,21 +1,17 @@
 package com.example.controller.teacher;
 
 import com.example.entity.BoCauHoi;
-import com.example.entity.Loai;
-import com.example.entity.TaiKhoan;
 import com.example.service.BoCauHoiService;
 import com.example.service.BoCauHoi_GVService;
 import com.example.service.BoCauHoi_LoaiService;
 import com.example.service.TaiKhoanService;
 import com.example.service.LoaiService;
 import com.example.service.MoDeService;
-import com.example.repository.BoCauHoi_LoaiRepository; // Giả sử bạn có Repo này cho bảng trung gian N-N của Loại
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
 
 @Controller
 @RequestMapping("/Teacher/ChiTietBoCauHoi")

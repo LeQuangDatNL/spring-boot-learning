@@ -20,7 +20,6 @@ public class QuanLyTaiKhoan {
     @Autowired
     private TaiKhoanService taiKhoanService;
 
-    // ===== HIỂN THỊ + TÌM KIẾM =====
     @GetMapping
     public String index(@RequestParam(required = false) String keyword,
                         Model model) {

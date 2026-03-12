@@ -17,7 +17,7 @@ public class TrangChuController {
 
     @GetMapping("/")
     public String khoiDau() {
-        return "redirect:/TrangChu"; // Chuyển hướng về trang chủ để lấy dữ liệu
+        return "redirect:/TrangChu"; 
     }
 
     @GetMapping("/TrangChu")
